@@ -11,7 +11,7 @@ pollutantmean <- function(directory, pollutant, id = 1:332) {
   
   mean(dat[, pollutant], na.rm = TRUE)
 }
-pollutantmean("/Users/meilanchen/Desktop/2015 Fall/2_R_Programming/Homework/Assignment1/specdata/", "sulfate", 1:10)
-pollutantmean("/Users/meilanchen/Desktop/2015 Fall/2_R_Programming/Homework/Assignment1/specdata/", "nitrate", 70:72)
+pollutantmean("/specdata/", "sulfate", 1:10)
+pollutantmean("/specdata/", "nitrate", 70:72)
 
 
