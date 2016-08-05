@@ -19,25 +19,25 @@ corr <- function(directory, threshold = 0) {
 }
 
 
-cr <- corr("/Users/meilanchen/Desktop/2015 Fall/2_R_Programming/Homework/Assignment1/specdata/", 150)
+cr <- corr("/specdata/", 150)
 head(cr)
 
 summary(cr)
 
-cr <- corr("/Users/meilanchen/Desktop/2015 Fall/2_R_Programming/Homework/Assignment1/specdata/", 400)
+cr <- corr("/specdata/", 400)
 head(cr)
 
 
 summary(cr)
 
-cr <- corr("/Users/meilanchen/Desktop/2015 Fall/2_R_Programming/Homework/Assignment1/specdata/", 5000)
+cr <- corr("/specdata/", 5000)
 summary(cr)
 
 
 length(cr)
 
 
-cr <- corr("/Users/meilanchen/Desktop/2015 Fall/2_R_Programming/Homework/Assignment1/specdata/")
+cr <- corr("/specdata/")
 summary(cr)
 
 length(cr)
