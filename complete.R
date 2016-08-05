@@ -16,10 +16,10 @@ complete <- function(directory, id = 1:332) {
 }
 
 
-complete("/Users/meilanchen/Desktop/2015 Fall/2_R_Programming/Homework/Assignment1/specdata/", 1)
+complete("/specdata/", 1)
 
-complete("/Users/meilanchen/Desktop/2015 Fall/2_R_Programming/Homework/Assignment1/specdata/", c(2, 4, 8, 10, 12))
+complete("/specdata/", c(2, 4, 8, 10, 12))
 
-complete("/Users/meilanchen/Desktop/2015 Fall/2_R_Programming/Homework/Assignment1/specdata/", 30:25)
+complete("/specdata/", 30:25)
 
-complete("/Users/meilanchen/Desktop/2015 Fall/2_R_Programming/Homework/Assignment1/specdata/", 3)
+complete("/specdata/", 3)
